@@ -1,0 +1,25 @@
+$color_1: #ffffff;
+
+@media screen and (max-width: 767px) {
+    .site-banner.banner-three {
+        .banner-caption {
+            .text-holder {
+                .banner-title {
+                    color: $color_1;
+                }
+            }
+        }
+    }
+    .site-banner {
+        .banner-caption {
+            position: absolute;
+            padding-top: unset;
+            padding-bottom: unset;
+        }
+    }
+
+}
+
+.post-type-archive .page-title {
+    display: none !important;
+}
